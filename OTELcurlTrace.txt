@@ -1,6 +1,6 @@
-curl --location 'https://datadog-otel-collector.apps.rmp01.ocp.na.xom.com/v1/traces' \
+curl --location 'https://OTEL_url/v1/traces' \
 --header 'Content-Type: application/json' \
---header 'Cookie: 30cf17f6d5b00b9f9be15f721ff84f15=ae31e0b5fa6e8c75c7b1999d52a64a68' \
+--header 'Cookie: 123123123' \
 --data '{
     "name": "Hello-Greetings",
     "context": {
